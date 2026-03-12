@@ -1,0 +1,25 @@
+<h1>Puzzle 2</h1>
+
+<p>Decode this:</p>
+
+<p>Uifsf jt b tfdsfu</p>
+
+<input id="answer">
+<button onclick="check()">Submit</button>
+
+<script>
+
+function check(){
+
+let a = document.getElementById("answer").value.toLowerCase()
+
+if(a == "there is a secret"){
+window.location = "final.html"
+}
+else{
+alert("Nope.")
+}
+
+}
+
+</script>
